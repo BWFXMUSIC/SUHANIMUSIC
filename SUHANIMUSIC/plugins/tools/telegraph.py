@@ -3,7 +3,7 @@ import os
 from pyrogram import filters
 from pyrogram.types import Message
 from TheAPI import api
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 
 # Setup logging
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)

@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from SUHANIMUSIC.utils.database import (
     skip_off,
     skip_on,
 )
-from SUHANIMUSIC.utils.decorators.admins import ActualAdminCB
-from SUHANIMUSIC.utils.decorators.language import language, languageCB
-from SUHANIMUSIC.utils.inline.settings import (
+from PROFESSORxSOURABH.utils.decorators.admins import ActualAdminCB
+from PROFESSORxSOURABH.utils.decorators.language import language, languageCB
+from PROFESSORxSOURABH.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from SUHANIMUSIC.utils.inline.start import private_panel
+from PROFESSORxSOURABH.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 

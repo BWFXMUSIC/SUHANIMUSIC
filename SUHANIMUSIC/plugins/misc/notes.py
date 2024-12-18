@@ -1,10 +1,10 @@
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from SUHANIMUSIC.utils.suhani_ban import admin_filter
-from SUHANIMUSIC.mongo.notesdb import *
-from SUHANIMUSIC.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from SUHANIMUSIC.utils.yumidb import user_admin
+from PROFESSORxSOURABH.utils.suhani_ban import admin_filter
+from PROFESSORxSOURABH.mongo.notesdb import *
+from PROFESSORxSOURABH.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
+from PROFESSORxSOURABH.utils.yumidb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 

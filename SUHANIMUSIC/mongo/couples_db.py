@@ -1,4 +1,4 @@
-from SUHANIMUSIC.utils.mongo import db
+from PROFESSORxSOURABH.utils.mongo import db
 
 coupledb = db.couple
 

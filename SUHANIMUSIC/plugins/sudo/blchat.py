@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import SUDOERS
-from SUHANIMUSIC.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from SUHANIMUSIC.utils.decorators.language import language
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import SUDOERS
+from PROFESSORxSOURABH.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from PROFESSORxSOURABH.utils.decorators.language import language
 from config import BANNED_USERS
 
 

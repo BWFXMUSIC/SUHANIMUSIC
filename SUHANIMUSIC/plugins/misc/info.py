@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from pyrogram import filters, Client, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
@@ -66,8 +66,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "SUHANIMUSIC/assets/userinfo.png"
-font_path = "SUHANIMUSIC/assets/hiroko.ttf"
+bg_path = "PROFESSORxSOURABH/assets/userinfo.png"
+font_path = "PROFESSORxSOURABH/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 

@@ -1,10 +1,10 @@
 import requests
 import random
-from SUHANIMUSIC import app, userbot
-from SUHANIMUSIC.misc import SUDOERS
+from PROFESSORxSOURABH import app, userbot
+from PROFESSORxSOURABH.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from SUHANIMUSIC.utils.suhani_ban import admin_filter
+from PROFESSORxSOURABH.utils.suhani_ban import admin_filter
 from config import OWNER_ID
 from pyrogram.types import ChatPrivileges
 from pyrogram.errors import RPCError

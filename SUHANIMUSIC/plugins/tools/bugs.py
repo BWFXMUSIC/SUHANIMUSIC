@@ -2,7 +2,7 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
 from config import OWNER_ID as owner_id
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 
 
 

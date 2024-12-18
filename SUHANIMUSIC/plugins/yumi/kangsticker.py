@@ -14,17 +14,17 @@ from pyrogram.errors import (
     UserIsBlocked,
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from config import BOT_USERNAME
-from SUHANIMUSIC.utils.errors import capture_err
+from PROFESSORxSOURABH.utils.errors import capture_err
 
-from SUHANIMUSIC.utils.files import (
+from PROFESSORxSOURABH.utils.files import (
     get_document_from_file_id,
     resize_file_to_sticker_size,
     upload_document,
 )
 
-from SUHANIMUSIC.utils.stickerset import (
+from PROFESSORxSOURABH.utils.stickerset import (
     add_sticker_to_set,
     create_sticker,
     create_sticker_set,

@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from SUHANIMUSIC import LOGGER, app, userbot
-from SUHANIMUSIC.core.call import SUHANI
-from SUHANIMUSIC.misc import sudo, ignore
-from SUHANIMUSIC.plugins import ALL_MODULES
-from SUHANIMUSIC.utils.database import get_banned_users, get_gbanned
+from PROFESSORxSOURABH import LOGGER, app, userbot
+from PROFESSORxSOURABH.core.call import SUHANI
+from PROFESSORxSOURABH.misc import sudo, ignore
+from PROFESSORxSOURABH.plugins import ALL_MODULES
+from PROFESSORxSOURABH.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -36,27 +36,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("SUHANIMUSIC.plugins" + all_module)
-    LOGGER("SUHANIMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("PROFESSORxSOURABH.plugins" + all_module)
+    LOGGER("PROFESSORxSOURABH.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
     await SUHANI.start()
     try:
         await SUHANI.stream_call("https://envs.sh/10x.mp4")
     except NoActiveGroupCall:
-        LOGGER("SUHANIMUSIC").error(
+        LOGGER("PROFESSORxSOURABH").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
     await SUHANI.decorators()
-    LOGGER("SUHANIMUSIC").info(
+    LOGGER("PROFESSORxSOURABH").info(
         "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗦𝗨𝗛𝗔𝗡𝗜☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SUHANIMUSIC").info("𝗦𝗧𝗢𝗣 𝗦𝗨𝗛𝗔𝗡𝗜 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("PROFESSORxSOURABH").info("𝗦𝗧𝗢𝗣 𝗦𝗨𝗛𝗔𝗡𝗜 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":

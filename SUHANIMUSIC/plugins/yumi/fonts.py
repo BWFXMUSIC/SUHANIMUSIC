@@ -1,8 +1,8 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SUHANIMUSIC.utils.suhani_font import Fonts
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH.utils.suhani_font import Fonts
+from PROFESSORxSOURABH import app
 
 @app.on_message(filters.command(["font", "fonts"]))
 async def style_buttons(c, m, cb=False):

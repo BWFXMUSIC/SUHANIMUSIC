@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.core.call import SUHANI
-from SUHANIMUSIC.misc import SUDOERS, db
-from SUHANIMUSIC.utils import AdminRightsCheck
-from SUHANIMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from SUHANIMUSIC.utils.decorators.language import languageCB
-from SUHANIMUSIC.utils.inline import close_markup, speed_markup
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.core.call import SUHANI
+from PROFESSORxSOURABH.misc import SUDOERS, db
+from PROFESSORxSOURABH.utils import AdminRightsCheck
+from PROFESSORxSOURABH.utils.database import is_active_chat, is_nonadmin_chat
+from PROFESSORxSOURABH.utils.decorators.language import languageCB
+from PROFESSORxSOURABH.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

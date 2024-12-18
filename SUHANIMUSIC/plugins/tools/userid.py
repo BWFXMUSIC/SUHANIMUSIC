@@ -1,4 +1,4 @@
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from pyrogram import Client, filters
 
 from pyrogram.enums import ParseMode

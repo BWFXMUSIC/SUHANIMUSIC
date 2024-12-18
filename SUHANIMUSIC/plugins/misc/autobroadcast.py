@@ -1,9 +1,9 @@
 import asyncio
 import datetime
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from pyrogram import Client
 from config import START_IMG_URL, IMG_URL
-from SUHANIMUSIC.utils.database import get_served_chats, get_served_users
+from PROFESSORxSOURABH.utils.database import get_served_chats, get_served_users
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import FloodWait
 

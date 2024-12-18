@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SUHANIMUSIC import YouTube, app
-from SUHANIMUSIC.core.call import SUHANI
-from SUHANIMUSIC.misc import db
-from SUHANIMUSIC.utils import AdminRightsCheck, seconds_to_min
-from SUHANIMUSIC.utils.inline import close_markup
+from PROFESSORxSOURABH import YouTube, app
+from PROFESSORxSOURABH.core.call import SUHANI
+from PROFESSORxSOURABH.misc import db
+from PROFESSORxSOURABH.utils import AdminRightsCheck, seconds_to_min
+from PROFESSORxSOURABH.utils.inline import close_markup
 from config import BANNED_USERS
 
 

@@ -1,5 +1,5 @@
-from SUHANIMUSIC.misc import SUDOERS
-from SUHANIMUSIC.utils.database import get_lang, is_maintenance
+from PROFESSORxSOURABH.misc import SUDOERS
+from PROFESSORxSOURABH.utils.database import get_lang, is_maintenance
 from strings import get_string
 from config import SUPPORT_CHAT
 

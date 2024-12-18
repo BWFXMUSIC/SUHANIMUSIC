@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from SUHANIMUSIC import Carbon, YouTube, app
-from SUHANIMUSIC.core.call import SUHANI
-from SUHANIMUSIC.misc import db
-from SUHANIMUSIC.utils.database import add_active_video_chat, is_active_chat
-from SUHANIMUSIC.utils.exceptions import AssistantErr
-from SUHANIMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from SUHANIMUSIC.utils.pastebin import SUHANIBin
-from SUHANIMUSIC.utils.stream.queue import put_queue, put_queue_index
-from SUHANIMUSIC.utils.thumbnails import get_thumb
+from PROFESSORxSOURABH import Carbon, YouTube, app
+from PROFESSORxSOURABH.core.call import SUHANI
+from PROFESSORxSOURABH.misc import db
+from PROFESSORxSOURABH.utils.database import add_active_video_chat, is_active_chat
+from PROFESSORxSOURABH.utils.exceptions import AssistantErr
+from PROFESSORxSOURABH.utils.inline import aq_markup, close_markup, stream_markup
+from PROFESSORxSOURABH.utils.pastebin import SUHANIBin
+from PROFESSORxSOURABH.utils.stream.queue import put_queue, put_queue_index
+from PROFESSORxSOURABH.utils.thumbnails import get_thumb
 
 
 async def stream(

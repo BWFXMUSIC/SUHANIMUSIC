@@ -4,17 +4,17 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import SUDOERS
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import SUDOERS
+from PROFESSORxSOURABH.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from SUHANIMUSIC.utils.decorators.language import language
-from SUHANIMUSIC.utils.formatters import alpha_to_int
+from PROFESSORxSOURABH.utils.decorators.language import language
+from PROFESSORxSOURABH.utils.formatters import alpha_to_int
 from config import adminlist, MAIN_OWNER, SUPPORT_CHAT
 
 IS_BROADCASTING = False
@@ -183,7 +183,7 @@ async def braodcast_message(client, message, _):
     if "-assistant" in message.text:
         aw = await message.reply_text(_["broad_5"])
         text = _["broad_6"]
-        from SUHANIMUSIC.core.userbot import assistants
+        from PROFESSORxSOURABH.core.userbot import assistants
 
         for num in assistants:
             sent = 0

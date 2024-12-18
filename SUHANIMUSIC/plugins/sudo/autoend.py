@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import SUDOERS
-from SUHANIMUSIC.utils.database import autoend_off, autoend_on
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import SUDOERS
+from PROFESSORxSOURABH.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)

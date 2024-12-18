@@ -1,10 +1,10 @@
 import re
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from config import BOT_USERNAME
-from SUHANIMUSIC.utils.suhani_ban import admin_filter
-from SUHANIMUSIC.mongo.filtersdb import *
-from SUHANIMUSIC.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from SUHANIMUSIC.utils.yumidb import user_admin
+from PROFESSORxSOURABH.utils.suhani_ban import admin_filter
+from PROFESSORxSOURABH.mongo.filtersdb import *
+from PROFESSORxSOURABH.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
+from PROFESSORxSOURABH.utils.yumidb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup

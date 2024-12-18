@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import db
-from SUHANIMUSIC.utils import SUHANIBin, get_channeplayCB, seconds_to_min
-from SUHANIMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
-from SUHANIMUSIC.utils.decorators.language import language, languageCB
-from SUHANIMUSIC.utils.inline import queue_back_markup, queue_markup
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import db
+from PROFESSORxSOURABH.utils import SUHANIBin, get_channeplayCB, seconds_to_min
+from PROFESSORxSOURABH.utils.database import get_cmode, is_active_chat, is_music_playing
+from PROFESSORxSOURABH.utils.decorators.language import language, languageCB
+from PROFESSORxSOURABH.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

@@ -1,13 +1,13 @@
 from pyrogram import filters
 import requests, random
 from bs4 import BeautifulSoup
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 import pytgcalls
 import os, yt_dlp 
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pytgcalls.types import AudioVideoPiped
-from SUHANIMUSIC.plugins.play import play
-from SUHANIMUSIC.plugins.play.pornplay import play
+from PROFESSORxSOURABH.plugins.play import play
+from PROFESSORxSOURABH.plugins.play.pornplay import play
 
 #
 #####

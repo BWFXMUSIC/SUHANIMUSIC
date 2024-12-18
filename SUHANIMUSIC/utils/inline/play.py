@@ -1,8 +1,8 @@
 import math
 from pyrogram.types import InlineKeyboardButton
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 import config
-from SUHANIMUSIC.utils.formatters import time_to_seconds
+from PROFESSORxSOURABH.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):

@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import SUDOERS
-from SUHANIMUSIC.utils.database import add_gban_user, remove_gban_user
-from SUHANIMUSIC.utils.decorators.language import language
-from SUHANIMUSIC.utils.extraction import extract_user
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import SUDOERS
+from PROFESSORxSOURABH.utils.database import add_gban_user, remove_gban_user
+from PROFESSORxSOURABH.utils.decorators.language import language
+from PROFESSORxSOURABH.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from SUHANIMUSIC import app
-from SUHANIMUSIC.core.userbot import assistants
-from SUHANIMUSIC.misc import SUDOERS, mongodb
-from SUHANIMUSIC.plugins import ALL_MODULES
-from SUHANIMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
-from SUHANIMUSIC.utils.decorators.language import language, languageCB
-from SUHANIMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.core.userbot import assistants
+from PROFESSORxSOURABH.misc import SUDOERS, mongodb
+from PROFESSORxSOURABH.plugins import ALL_MODULES
+from PROFESSORxSOURABH.utils.database import get_served_chats, get_served_users, get_sudoers
+from PROFESSORxSOURABH.utils.decorators.language import language, languageCB
+from PROFESSORxSOURABH.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 

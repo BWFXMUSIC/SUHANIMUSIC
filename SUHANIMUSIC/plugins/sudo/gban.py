@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import SUDOERS
-from SUHANIMUSIC.utils import get_readable_time
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import SUDOERS
+from PROFESSORxSOURABH.utils import get_readable_time
+from PROFESSORxSOURABH.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from SUHANIMUSIC.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from SUHANIMUSIC.utils.decorators.language import language
-from SUHANIMUSIC.utils.extraction import extract_user
+from PROFESSORxSOURABH.utils.decorators.language import language
+from PROFESSORxSOURABH.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

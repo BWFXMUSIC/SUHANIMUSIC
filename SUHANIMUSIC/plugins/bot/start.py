@@ -7,12 +7,12 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 import config
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import _boot_
-from SUHANIMUSIC.plugins.sudo.sudoers import sudoers_list
-from SUHANIMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
-from SUHANIMUSIC.utils import bot_sys_stats
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import _boot_
+from PROFESSORxSOURABH.plugins.sudo.sudoers import sudoers_list
+from PROFESSORxSOURABH.utils.database import get_served_chats, get_served_users, get_sudoers
+from PROFESSORxSOURABH.utils import bot_sys_stats
+from PROFESSORxSOURABH.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -20,9 +20,9 @@ from SUHANIMUSIC.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from SUHANIMUSIC.utils.decorators.language import LanguageStart
-from SUHANIMUSIC.utils.formatters import get_readable_time
-from SUHANIMUSIC.utils.inline import help_pannel, private_panel, start_panel
+from PROFESSORxSOURABH.utils.decorators.language import LanguageStart
+from PROFESSORxSOURABH.utils.formatters import get_readable_time
+from PROFESSORxSOURABH.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 

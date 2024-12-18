@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import IGNORED
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import IGNORED
 from config import OWNER_ID, OWNER_USERNAME  # Replace this with the specific owner ID
-from SUHANIMUSIC.utils.decorators.language import language
-from SUHANIMUSIC.utils.database import add_ignored_user, is_ignored_user, remove_ignored_user, get_ignored_users
+from PROFESSORxSOURABH.utils.decorators.language import language
+from PROFESSORxSOURABH.utils.database import add_ignored_user, is_ignored_user, remove_ignored_user, get_ignored_users
 
 # Ignore a user
 @app.on_message(filters.command(["ignore"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))

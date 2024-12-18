@@ -1,10 +1,10 @@
 import asyncio
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from config import OWNER_ID
 from datetime import datetime
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
-from SUHANIMUSIC.utils.database import get_assistant
+from PROFESSORxSOURABH.utils.database import get_assistant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Assuming Userbot is defined elsewhere

@@ -1,6 +1,6 @@
-from SUHANIMUSIC.utils.mongo import db
+from PROFESSORxSOURABH.utils.mongo import db
 
-#from SUHANIMUSIC.mongo import *# back...............
+#from PROFESSORxSOURABH.mongo import *# back...............
 
 notes = db.notes["notes"]
 

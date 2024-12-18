@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SUHANIMUSIC import YouTube, app
-from SUHANIMUSIC.misc import SUDOERS
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import YouTube, app
+from PROFESSORxSOURABH.misc import SUDOERS
+from PROFESSORxSOURABH.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from SUHANIMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from SUHANIMUSIC.utils.inline import botplaylist_markup
+from PROFESSORxSOURABH.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 

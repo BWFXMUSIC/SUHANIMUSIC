@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import aiohttp
 import re
 import os
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 
 
 @app.on_message(filters.command("tg"))

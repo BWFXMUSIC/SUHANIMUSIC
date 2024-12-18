@@ -1,7 +1,7 @@
 import asyncio
 
-from SUHANIMUSIC.misc import db
-from SUHANIMUSIC.utils.database import get_active_chats, is_music_playing
+from PROFESSORxSOURABH.misc import db
+from PROFESSORxSOURABH.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

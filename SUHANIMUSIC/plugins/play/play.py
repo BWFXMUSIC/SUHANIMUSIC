@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from SUHANIMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from SUHANIMUSIC.core.call import SUHANI
-from SUHANIMUSIC.utils import seconds_to_min, time_to_seconds
-from SUHANIMUSIC.utils.channelplay import get_channeplayCB
-from SUHANIMUSIC.utils.decorators.language import languageCB
-from SUHANIMUSIC.utils.decorators.play import PlayWrapper
-from SUHANIMUSIC.utils.formatters import formats
-from SUHANIMUSIC.utils.inline import (
+from PROFESSORxSOURABH import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from PROFESSORxSOURABH.core.call import SUHANI
+from PROFESSORxSOURABH.utils import seconds_to_min, time_to_seconds
+from PROFESSORxSOURABH.utils.channelplay import get_channeplayCB
+from PROFESSORxSOURABH.utils.decorators.language import languageCB
+from PROFESSORxSOURABH.utils.decorators.play import PlayWrapper
+from PROFESSORxSOURABH.utils.formatters import formats
+from PROFESSORxSOURABH.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from SUHANIMUSIC.utils.logger import play_logs
-from SUHANIMUSIC.utils.stream.stream import stream
+from PROFESSORxSOURABH.utils.logger import play_logs
+from PROFESSORxSOURABH.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 

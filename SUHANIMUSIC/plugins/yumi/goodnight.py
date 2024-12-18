@@ -4,7 +4,7 @@ from pyrogram import filters
 import random
 from pyrogram.types import Message
 from pyrogram import Client, filters
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 
 
 

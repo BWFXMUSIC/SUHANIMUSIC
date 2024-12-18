@@ -8,8 +8,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import *
 
 #BOT FILE NAME
-from SUHANIMUSIC import app as app
-from SUHANIMUSIC.mongo.couples_db import _get_image, get_couple
+from PROFESSORxSOURABH import app as app
+from PROFESSORxSOURABH.mongo.couples_db import _get_image, get_couple
 
 POLICE = [
     [
@@ -72,16 +72,16 @@ async def ctest(_, message):
          try:
             p1 = await app.download_media(photo1.big_file_id, file_name="pfp.png")
          except Exception:
-            p1 = "SUHANIMUSIC/assets/upic.png"
+            p1 = "PROFESSORxSOURABH/assets/upic.png"
          try:
             p2 = await app.download_media(photo2.big_file_id, file_name="pfp1.png")
          except Exception:
-            p2 = "SUHANIMUSIC/assets/upic.png"
+            p2 = "PROFESSORxSOURABH/assets/upic.png"
             
          img1 = Image.open(f"{p1}")
          img2 = Image.open(f"{p2}")
 
-         img = Image.open("SUHANIMUSIC/assets/cppic.png")
+         img = Image.open("PROFESSORxSOURABH/assets/cppic.png")
 
          img1 = img1.resize((437,437))
          img2 = img2.resize((437,437))

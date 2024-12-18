@@ -4,11 +4,11 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from config import *
-from SUHANIMUSIC import app
-from SUHANIMUSIC.core.call import SUHANI
-from SUHANIMUSIC.utils import bot_sys_stats
-from SUHANIMUSIC.utils.decorators.language import language
-from SUHANIMUSIC.utils.inline import supp_markup
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.core.call import SUHANI
+from PROFESSORxSOURABH.utils import bot_sys_stats
+from PROFESSORxSOURABH.utils.decorators.language import language
+from PROFESSORxSOURABH.utils.inline import supp_markup
 from config import BANNED_USERS
 
 

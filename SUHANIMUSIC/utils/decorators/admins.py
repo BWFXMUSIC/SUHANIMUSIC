@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import SUDOERS, db
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import SUDOERS, db
+from PROFESSORxSOURABH.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import requests
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 
 ############.....
 

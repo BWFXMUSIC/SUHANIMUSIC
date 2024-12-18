@@ -8,7 +8,7 @@ import yt_dlp
 from urllib.parse import urlparse
 from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
-from SUHANIMUSIC import app, YouTube
+from PROFESSORxSOURABH import app, YouTube
 from pyrogram import filters
 from pyrogram import Client, filters
 from pyrogram.types import Message
@@ -23,9 +23,9 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
-from SUHANIMUSIC.utils.decorators.language import language, languageCB
-from SUHANIMUSIC.utils.formatters import convert_bytes
-from SUHANIMUSIC.utils.inline.song import song_markup
+from PROFESSORxSOURABH.utils.decorators.language import language, languageCB
+from PROFESSORxSOURABH.utils.formatters import convert_bytes
+from PROFESSORxSOURABH.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = ["song"]

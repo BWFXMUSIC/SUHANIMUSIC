@@ -7,10 +7,10 @@ from PIL import Image
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.utils.errors import capture_err
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.utils.errors import capture_err
 
-from SUHANIMUSIC.core.sections import section
+from PROFESSORxSOURABH.core.sections import section
 
 
 async def convert(

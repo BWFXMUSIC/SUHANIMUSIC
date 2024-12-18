@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from SUHANIMUSIC import LOGGER, YouTube, app
-from SUHANIMUSIC.misc import db
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import LOGGER, YouTube, app
+from PROFESSORxSOURABH.misc import db
+from PROFESSORxSOURABH.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from SUHANIMUSIC.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from SUHANIMUSIC.utils.exceptions import AssistantErr
-from SUHANIMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
-from SUHANIMUSIC.utils.inline.play import stream_markup
-from SUHANIMUSIC.utils.stream.autoclear import auto_clean
-from SUHANIMUSIC.utils.thumbnails import get_thumb
+from PROFESSORxSOURABH.utils.exceptions import AssistantErr
+from PROFESSORxSOURABH.utils.formatters import check_duration, seconds_to_min, speed_converter
+from PROFESSORxSOURABH.utils.inline.play import stream_markup
+from PROFESSORxSOURABH.utils.stream.autoclear import auto_clean
+from PROFESSORxSOURABH.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}

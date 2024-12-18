@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from config import BOT_USERNAME
 
 

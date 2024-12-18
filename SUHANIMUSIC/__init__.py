@@ -1,8 +1,8 @@
-from SUHANIMUSIC.core.bot import SUHANI
-from SUHANIMUSIC.core.dir import dirr
-from SUHANIMUSIC.core.git import git
-from SUHANIMUSIC.core.userbot import Userbot
-from SUHANIMUSIC.misc import dbb, heroku
+from PROFESSORxSOURABH.core.bot import SUHANI
+from PROFESSORxSOURABH.core.dir import dirr
+from PROFESSORxSOURABH.core.git import git
+from PROFESSORxSOURABH.core.userbot import Userbot
+from PROFESSORxSOURABH.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER

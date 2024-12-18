@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from SUHANIMUSIC.misc import _boot_
-from SUHANIMUSIC.utils.formatters import get_readable_time
+from PROFESSORxSOURABH.misc import _boot_
+from PROFESSORxSOURABH.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():

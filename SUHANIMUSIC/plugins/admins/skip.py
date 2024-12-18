@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from SUHANIMUSIC import YouTube, app
-from SUHANIMUSIC.core.call import SUHANI
-from SUHANIMUSIC.misc import db
-from SUHANIMUSIC.utils.database import get_loop
-from SUHANIMUSIC.utils.decorators import AdminRightsCheck
-from SUHANIMUSIC.utils.inline import close_markup, stream_markup
-from SUHANIMUSIC.utils.stream.autoclear import auto_clean
-from SUHANIMUSIC.utils.thumbnails import get_thumb
+from PROFESSORxSOURABH import YouTube, app
+from PROFESSORxSOURABH.core.call import SUHANI
+from PROFESSORxSOURABH.misc import db
+from PROFESSORxSOURABH.utils.database import get_loop
+from PROFESSORxSOURABH.utils.decorators import AdminRightsCheck
+from PROFESSORxSOURABH.utils.inline import close_markup, stream_markup
+from PROFESSORxSOURABH.utils.stream.autoclear import auto_clean
+from PROFESSORxSOURABH.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

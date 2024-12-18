@@ -1,7 +1,7 @@
 import random
 import time
 import requests
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from config import BOT_USERNAME
 
 from pyrogram.enums import ChatAction, ParseMode

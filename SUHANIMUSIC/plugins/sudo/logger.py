@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import SUDOERS
-from SUHANIMUSIC.utils.database import add_off, add_on
-from SUHANIMUSIC.utils.decorators.language import language
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import SUDOERS
+from PROFESSORxSOURABH.utils.database import add_off, add_on
+from PROFESSORxSOURABH.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

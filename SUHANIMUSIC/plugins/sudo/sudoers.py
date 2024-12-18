@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from pyrogram.types import InputMediaVideo
 from pyrogram.errors import UserNotParticipant
-from SUHANIMUSIC.misc import SUDOERS
-from SUHANIMUSIC.utils.database import add_sudo, remove_sudo
-from SUHANIMUSIC.utils.decorators.language import language
-from SUHANIMUSIC.utils.extraction import extract_user
-from SUHANIMUSIC.utils.inline import close_markup
+from PROFESSORxSOURABH.misc import SUDOERS
+from PROFESSORxSOURABH.utils.database import add_sudo, remove_sudo
+from PROFESSORxSOURABH.utils.decorators.language import language
+from PROFESSORxSOURABH.utils.extraction import extract_user
+from PROFESSORxSOURABH.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 from datetime import datetime, timedelta
 

@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.utils.database import is_on_off
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.utils.database import is_on_off
 from config import LOGGER_ID
 
 

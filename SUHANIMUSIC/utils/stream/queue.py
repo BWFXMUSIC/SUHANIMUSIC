@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from SUHANIMUSIC.misc import db
-from SUHANIMUSIC.utils.formatters import check_duration, seconds_to_min
+from PROFESSORxSOURABH.misc import db
+from PROFESSORxSOURABH.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 

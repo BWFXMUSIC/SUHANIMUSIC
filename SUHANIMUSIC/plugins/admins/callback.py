@@ -3,10 +3,10 @@ from telegram import CallbackQuery
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SUHANIMUSIC import YouTube, app
-from SUHANIMUSIC.core.call import SUHANI
-from SUHANIMUSIC.misc import SUDOERS, db
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import YouTube, app
+from PROFESSORxSOURABH.core.call import SUHANI
+from PROFESSORxSOURABH.misc import SUDOERS, db
+from PROFESSORxSOURABH.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -23,12 +23,12 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from SUHANIMUSIC.utils.database import get_assistant
-from SUHANIMUSIC.utils.decorators.language import languageCB
-from SUHANIMUSIC.utils.formatters import seconds_to_min
-from SUHANIMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
-from SUHANIMUSIC.utils.stream.autoclear import auto_clean
-from SUHANIMUSIC.utils.thumbnails import get_thumb
+from PROFESSORxSOURABH.utils.database import get_assistant
+from PROFESSORxSOURABH.utils.decorators.language import languageCB
+from PROFESSORxSOURABH.utils.formatters import seconds_to_min
+from PROFESSORxSOURABH.utils.inline import close_markup, stream_markup, stream_markup_timer
+from PROFESSORxSOURABH.utils.stream.autoclear import auto_clean
+from PROFESSORxSOURABH.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

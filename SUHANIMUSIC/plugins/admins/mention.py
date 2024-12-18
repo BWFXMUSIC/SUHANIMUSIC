@@ -1,8 +1,8 @@
 import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from pyrogram import filters
-from SUHANIMUSIC.utils.suhani_ban import admin_filter
+from PROFESSORxSOURABH.utils.suhani_ban import admin_filter
 
 
 

@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import qrcode
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from PIL import Image
 import io
 

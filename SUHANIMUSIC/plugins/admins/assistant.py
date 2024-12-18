@@ -1,14 +1,14 @@
 import asyncio
-from SUHANIMUSIC.misc import SUDOERS
+from PROFESSORxSOURABH.misc import SUDOERS
 from config import OWNER_ID
 from pyrogram import filters
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
-from SUHANIMUSIC import app
-from SUHANIMUSIC.utils.suhani_ban import admin_filter
-from SUHANIMUSIC.utils.database import get_assistant
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.utils.suhani_ban import admin_filter
+from PROFESSORxSOURABH.utils.database import get_assistant
 
 links = {}
 

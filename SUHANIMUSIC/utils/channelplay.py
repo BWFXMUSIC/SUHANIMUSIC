@@ -1,5 +1,5 @@
-from SUHANIMUSIC import app
-from SUHANIMUSIC.utils.database import get_cmode
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

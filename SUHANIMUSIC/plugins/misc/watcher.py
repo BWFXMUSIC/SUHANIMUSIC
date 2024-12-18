@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.core.call import SUHANI
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.core.call import SUHANI
 
 welcome = 20
 close = 30

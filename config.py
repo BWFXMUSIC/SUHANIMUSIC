@@ -50,7 +50,7 @@ MAIN_OWNER = int(getenv("OWNER_ID", 1073815732))
 # -----------------------------------------------------------------
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-for-SuhaniMusic-09-10")
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-for-PROFESSORxSOURABH-09-10")
 
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
@@ -66,7 +66,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/qnxanjali/SUHANIMUSIC",
+    "https://github.com/qnxanjali/PROFESSORxSOURABH",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(

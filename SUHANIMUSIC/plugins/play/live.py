@@ -1,9 +1,9 @@
 from pyrogram import filters
 import random
-from SUHANIMUSIC import YouTube, app
-from SUHANIMUSIC.utils.channelplay import get_channeplayCB
-from SUHANIMUSIC.utils.decorators.language import languageCB
-from SUHANIMUSIC.utils.stream.stream import stream
+from PROFESSORxSOURABH import YouTube, app
+from PROFESSORxSOURABH.utils.channelplay import get_channeplayCB
+from PROFESSORxSOURABH.utils.decorators.language import languageCB
+from PROFESSORxSOURABH.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

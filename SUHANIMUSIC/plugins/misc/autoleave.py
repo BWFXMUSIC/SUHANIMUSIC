@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from SUHANIMUSIC import app
-from SUHANIMUSIC.core.call import SUHANI, autoend
-from SUHANIMUSIC.utils.database import get_client, is_active_chat, is_autoend
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.core.call import SUHANI, autoend
+from PROFESSORxSOURABH.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
@@ -14,7 +14,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from SUHANIMUSIC.core.userbot import assistants
+            from PROFESSORxSOURABH.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

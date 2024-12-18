@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.utils import extract_user, int_to_alpha
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.utils import extract_user, int_to_alpha
+from PROFESSORxSOURABH.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from SUHANIMUSIC.utils.decorators import AdminActual, language
-from SUHANIMUSIC.utils.inline import close_markup
+from PROFESSORxSOURABH.utils.decorators import AdminActual, language
+from PROFESSORxSOURABH.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

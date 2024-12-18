@@ -6,7 +6,7 @@ from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboa
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 
 LOGGER = getLogger(__name__)
 
@@ -47,13 +47,13 @@ def circle(pfp, size=(450, 450)):
 
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("SUHANIMUSIC/assets/wel2.png")
+    background = Image.open("PROFESSORxSOURABH/assets/wel2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize((447, 447))
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype('SUHANIMUSIC/assets/font.ttf', size=40)
-    welcome_font = ImageFont.truetype('SUHANIMUSIC/assets/font.ttf', size=60)
+    font = ImageFont.truetype('PROFESSORxSOURABH/assets/font.ttf', size=40)
+    welcome_font = ImageFont.truetype('PROFESSORxSOURABH/assets/font.ttf', size=60)
     draw.text((730, 250), f'STATUS: MEMBER', fill=(255, 255, 255), font=font)
     draw.text((730, 320), f'NAME : {unidecode(user)}', fill=(255, 255, 255), font=font)
   #  draw.text((730, 320), f'NAME: {user}', fill=(255, 255, 255), font=font)
@@ -82,7 +82,7 @@ async def greet_group(_, member: ChatMemberUpdated):
             user.photo.big_file_id, file_name=f"pp{user.id}.png"
         )
     except AttributeError:
-        pic = "SUHANIMUSIC/assets/wel2.png"
+        pic = "PROFESSORxSOURABH/assets/wel2.png"
     if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
         try:
             await temp.MELCOW[f"welcome-{member.chat.id}"].delete()

@@ -1,15 +1,15 @@
 from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message, InlineKeyboardButton
-from SUHANIMUSIC import app
-from SUHANIMUSIC.utils import help_pannel
-from SUHANIMUSIC.utils.database import get_lang
-from SUHANIMUSIC.utils.decorators.language import LanguageStart, languageCB
-from SUHANIMUSIC.utils.inline.help import help_back_markup, private_help_panel
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.utils import help_pannel
+from PROFESSORxSOURABH.utils.database import get_lang
+from PROFESSORxSOURABH.utils.decorators.language import LanguageStart, languageCB
+from PROFESSORxSOURABH.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
-from SUHANIMUSIC.utils.stuffs.buttons import BUTTONS
-from SUHANIMUSIC.utils.stuffs.helper import Helper
+from PROFESSORxSOURABH.utils.stuffs.buttons import BUTTONS
+from PROFESSORxSOURABH.utils.stuffs.helper import Helper
 
 @app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
 @app.on_callback_query(filters.regex("settings_back_helper") & ~BANNED_USERS)

@@ -1,6 +1,6 @@
 
 import requests
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from pyrogram import filters
 
 

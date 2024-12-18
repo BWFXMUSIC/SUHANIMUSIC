@@ -1,8 +1,8 @@
-from SUHANIMUSIC.utils.suhani_ban import admin_filter
+from PROFESSORxSOURABH.utils.suhani_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 
 @app.on_message(filters.command("user") & admin_filter)
 def user_command(client, message):

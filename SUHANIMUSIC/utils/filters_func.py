@@ -1,8 +1,8 @@
 from enum import Enum, auto
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from pyrogram.types import InlineKeyboardMarkup, Message
-from SUHANIMUSIC.utils.msg_types import button_markdown_parser
-from SUHANIMUSIC.utils.notes_func import NoteFillings
+from PROFESSORxSOURABH.utils.msg_types import button_markdown_parser
+from PROFESSORxSOURABH.utils.notes_func import NoteFillings
 from emojis import decode
 from pyrogram.types import Message
 

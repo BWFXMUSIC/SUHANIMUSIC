@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from config import BOT_USERNAME
-from SUHANIMUSIC.utils.errors import capture_err
+from PROFESSORxSOURABH.utils.errors import capture_err
 import httpx 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 

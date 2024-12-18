@@ -1,6 +1,6 @@
 import requests
 from requests import get 
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from pyrogram import filters
 from pyrogram.types import InputMediaPhoto
 

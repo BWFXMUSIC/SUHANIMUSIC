@@ -1,6 +1,6 @@
 from typing import Union
-from SUHANIMUSIC import app
-from SUHANIMUSIC.utils.formatters import time_to_seconds
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 

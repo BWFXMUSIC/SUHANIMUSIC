@@ -1,4 +1,4 @@
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 from os import environ
 from config import BOT_USERNAME
 import config
@@ -52,8 +52,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "SUHANIMUSIC/assets/userinfo.png"
-font_path = "SUHANIMUSIC/assets/hiroko.ttf"
+bg_path = "PROFESSORxSOURABH/assets/userinfo.png"
+font_path = "PROFESSORxSOURABH/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 

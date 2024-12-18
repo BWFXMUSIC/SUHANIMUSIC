@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from SUHANIMUSIC.core.mongo import mongodb
+from PROFESSORxSOURABH.core.mongo import mongodb
 
 from .logging import LOGGER
 

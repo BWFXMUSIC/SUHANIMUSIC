@@ -13,12 +13,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from SUHANIMUSIC import app
-from SUHANIMUSIC.core.call import SUHANI
-from SUHANIMUSIC.misc import db
-from SUHANIMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
-from SUHANIMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
-from SUHANIMUSIC.utils.formatters import alpha_to_int, get_readable_time
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.core.call import SUHANI
+from PROFESSORxSOURABH.misc import db
+from PROFESSORxSOURABH.utils.database import get_assistant, get_authuser_names, get_cmode
+from PROFESSORxSOURABH.utils.decorators import ActualAdminCB, AdminActual, language
+from PROFESSORxSOURABH.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")

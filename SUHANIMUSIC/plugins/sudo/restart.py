@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from SUHANIMUSIC import app
-from SUHANIMUSIC.misc import HAPP, SUDOERS, XCB
-from SUHANIMUSIC.utils.database import (
+from PROFESSORxSOURABH import app
+from PROFESSORxSOURABH.misc import HAPP, SUDOERS, XCB
+from PROFESSORxSOURABH.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from SUHANIMUSIC.utils.decorators.language import language
-from SUHANIMUSIC.utils.pastebin import SUHANIBin
+from PROFESSORxSOURABH.utils.decorators.language import language
+from PROFESSORxSOURABH.utils.pastebin import SUHANIBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

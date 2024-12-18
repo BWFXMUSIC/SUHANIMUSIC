@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import requests
-from SUHANIMUSIC import app
+from PROFESSORxSOURABH import app
 
 
 @app.on_message(filters.command("population"))
